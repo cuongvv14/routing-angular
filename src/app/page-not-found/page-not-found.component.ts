@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
-  selector: 'app-about',
+  selector: 'app-page-not-found',
   standalone: true,
   imports: [RouterLink, RouterLinkActive],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.css',
+  templateUrl: './page-not-found.component.html',
+  styleUrl: './page-not-found.component.css',
 })
-export class AboutComponent {}
+export class PageNotFoundComponent {}
